@@ -13,7 +13,7 @@ myFunction();
 // };
 // anotherFunction("Example");
 
-let anotherFunction = param => param1;
+let anotherFunction = param => param;
 anotherFunction("Travis");
 
 // let add = function (param1, param2) {
@@ -28,6 +28,7 @@ let add = (num1, num2) => num1 + num2;
 // };
 // subtract(1,2);
 
+let subtract = (num1, num2) => num1 - num2;
 
 // Stretch
 
@@ -36,3 +37,7 @@ let add = (num1, num2) => num1 + num2;
 //   return num * 3;
 // });
 // console.log(triple);
+
+let exArr = [1,2,3,4];
+const triple = exArr.map(e => e * 3);
+console.log(triple);
